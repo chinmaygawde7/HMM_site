@@ -260,6 +260,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Mobile Navigation */
+
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
@@ -1646,4 +1647,10 @@ section {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+
+@media(max-width: 414px){
+  .logotext{
+    display: none;
+  }
 }
