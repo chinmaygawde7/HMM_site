@@ -1,0 +1,21 @@
+{
+  "name": "hmm_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinmaygawde7/HMM_site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chinmaygawde7/HMM_site/issues"
+  },
+  "homepage": "https://github.com/chinmaygawde7/HMM_site#readme"
+}
