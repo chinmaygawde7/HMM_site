@@ -77,7 +77,7 @@
     <div class="intro-container">
       <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
 
-        <ol class="carousel-indicators"></ol>
+<!--         <ol class="carousel-indicators"></ol> -->
 
         <div class="carousel-inner" role="listbox">
 
@@ -161,7 +161,25 @@
       </div>
     </div>
   </section><!-- End Intro Section -->
-
+  <script src="./assets/js/three.r119.min.js"></script>
+  <script src="./assets/js/vanta.waves.min.js"></script>
+  <script>
+  VANTA.WAVES({
+    el: ".carousel-item",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    color: 0x0,
+    shininess: 150.00,
+    waveHeight: 40.00,
+    waveSpeed: 2.00,
+    zoom: 1.46
+  });
+  </script>
   <main id="main">
 
     <!-- ======= Featured Services Section Section ======= -->
